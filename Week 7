@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/MainTemplate.dwt.asp" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>acuforum search</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+<table width="100%"  border="0" cellpadding="10" cellspacing="0"> 
+  <tr bgcolor="#008F00"> 
+    <td width="306px"><a href="http://www.acunetix.com/"><img src="Images/logo.gif" width="306" height="38" border="0"></a></td> 
+    <td align="right" valign="middle" bgcolor="#008F00" class="disclaimer">TEST and Demonstration site for Acunetix Web Vulnerability Scanner</td> 
+  </tr> 
+  <tr> 
+    <td colspan="2"><div class="menubar"><a href="Templatize.asp?item=html/about.html" class="menu">about</a> - <a href="Default.asp" class="menu">forums</a> - <a href="Search.asp" class="menu">search</a> 
+     - <a href="./Login.asp?RetURL=%2FSearch%2Easp%3FtfSearch%3D%253Ctable%253E%253Ctr%253E%253Ctd%253ELogin%253A%253C%252Ftd%253E%253Ctd%253E%253Cinput%2Btype%253Dtext%2Blength%253D20%2Bname%253Dlogin%253E%253C%252Ftd%253E%253C%252Ftr%253E%253Ctr%253E%253Ctd%253EPassword%253A%253C%252Ftd%253E%253Ctd%253E%253Cinput%2Btype%253Dtext%2Blength%253D20%2Bname%253Dpassword%253E%253C%252Ftd%253E%253C%252Ftr%253E%253C%252Ftable%253E%253Cinput%2Btype%253Dsubmit%2Bvalue%253DLOGIN%253E%253C%252Fform%253E" class="menu">login</a> - <a href="./Register.asp?RetURL=%2FSearch%2Easp%3FtfSearch%3D%253Ctable%253E%253Ctr%253E%253Ctd%253ELogin%253A%253C%252Ftd%253E%253Ctd%253E%253Cinput%2Btype%253Dtext%2Blength%253D20%2Bname%253Dlogin%253E%253C%252Ftd%253E%253C%252Ftr%253E%253Ctr%253E%253Ctd%253EPassword%253A%253C%252Ftd%253E%253Ctd%253E%253Cinput%2Btype%253Dtext%2Blength%253D20%2Bname%253Dpassword%253E%253C%252Ftd%253E%253C%252Ftr%253E%253C%252Ftable%253E%253Cinput%2Btype%253Dsubmit%2Bvalue%253DLOGIN%253E%253C%252Fform%253E" class="menu">register</a> 
+    </div></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2"><!-- InstanceBeginEditable name="MainContentLeft" -->
+      <form name="frmSearch" method="get" action="">
+        <div class="FramedForm">
+          <input name="tfSearch" type="text" class="search">
+          <input class="search" type="submit" value="search posts">
+        </div>
+      </form>      
+        <div class='path'>You searched for '<table><tr><td>Login:</td><td><input type=text length=20 name=login></td></tr><tr><td>Password:</td><td><input type=text length=20 name=password></td></tr></table><input type=submit value=LOGIN></form>'</div><table width="100%" cellspacing="1" cellpadding="5" bgcolor="#E5E5E5"> <font face="Arial" size=2>
+<p>Microsoft SQL Native Client</font> <font face="Arial" size=2>error '80040e57'</font>
+<p>
+<font face="Arial" size=2>String or binary data would be truncated.</font>
+<p>
+<font face="Arial" size=2>/Search.asp</font><font face="Arial" size=2>, line 55</font> 
